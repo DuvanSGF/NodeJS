@@ -39,7 +39,7 @@ Databases:
 
 ## 1.Software Installation:
 
-In this document, you find the URL, commands and web pages of the required software for this tutorial. The installation process is very simple, the most of the time consisting in unzip a file or click in the next button. If you have problems with the installation process search the web or send me a email explaining your problem (Please begin the subject with Word NodeJS ).
+In this document, you find the URL, commands and web pages of the required software for this tutorial. The installation process is very simple, the most of the time consisting in unzip a file or click in the next button. If you have problems with the installation process search the web or send me a email explaining your problem (Please begin the subject with Word NodeJS
 
 ### 1.1 Programing Languages
 
@@ -85,3 +85,7 @@ https://expressjs.com/es/
 #### 1.4.1 NoSQL Database (No Relational)
 
 #### MongoDB
+
+MongoDB **stores data in flexible, JSON-like documents**, meaning fields can vary from document to document and data structure can be changed over time
+
+https://www.mongodb.com/download-center/community
