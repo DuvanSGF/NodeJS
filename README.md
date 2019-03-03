@@ -1,7 +1,6 @@
-# Node JS [![NPM version](https://img.shields.io/npm/v/arr-union.svg)](https://www.npmjs.com/package/arr-union) [![Build Status](https://img.shields.io/travis/jonschlinkert/arr-union.svg)](https://github.com/DuvanSGF/NodeJS/tree/master/crud-nodejs-mongodb)
+# Node JS		
 
-[![Build Status](file:///C:/Users/Mr%20Mejia/AppData/Local/Temp/1.svg)]
-​								(Part One) - Intro
+(Part One) - Intro
 
 Version : 0.0.1(20190301)	
 
