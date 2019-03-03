@@ -1,3 +1,4 @@
+# arr-union [![NPM version](https://img.shields.io/npm/v/arr-union.svg)](https://www.npmjs.com/package/arr-union) [![Build Status](https://img.shields.io/travis/jonschlinkert/arr-union.svg)](https://travis-ci.org/jonschlinkert/arr-union)
 # 		         	Node JS
 
 ​								(Part One) - Intro
