@@ -1,6 +1,6 @@
-# 		         	Node JS
+# Node JS		
 
-​								(Part One) - Intro
+(Part One) - Intro
 
 Version : 0.0.1(20190301)	
 
