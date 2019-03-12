@@ -197,6 +197,6 @@ http://localhost:3000/
 
 ###### MongoDB database access test : See the terminal
 
-![](C:\Users\Mr Mejia\Pictures\Documentacion\accesdatabase.png)
+https://pbs.twimg.com/media/D1e6fSoWkAAJZF0.png
 
 
