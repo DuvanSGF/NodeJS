@@ -84,7 +84,8 @@ unzip master.zip
 
 To  create a database in MongoDB, use the mongod.exe  command in a terminal to start (run) the server
 
-![](C:\Users\Mr Mejia\Pictures\Documentacion\mongod.png)
+ <img src="https://pbs.twimg.com/media/D1e_H7AX0AAWh6r.png" width="600" large="400">
+
 
 This  terminal windows must be kept open. if you close this console, you kill the MongoDB server process (stops the server).
 
@@ -92,7 +93,9 @@ This  terminal windows must be kept open. if you close this console, you kill th
 
 To run the MongoDB client, open a new terminal windows and execute the mongo.exe command.
 
-![](C:\Users\Mr Mejia\Pictures\Documentacion\mongoexe.png)
+ <img src="https://pbs.twimg.com/media/D1e_H7SXQAAFdtB.png" width="600" large="400">
+
+
 
 NodeJS web application will create the database and the collection. 
 
@@ -108,7 +111,8 @@ NodeJS web application will create the database and the collection.
 
 Inside crud-nodejs-mongo-db folder you must open the terminal.
 
-![](C:\Users\Mr Mejia\Pictures\Documentacion\Folder.png)
+ <img src="https://pbs.twimg.com/media/D1e6fTBWoAEc6xm.png" width="600" large="400">
+
 
 
 
@@ -175,7 +179,7 @@ To run the Express server you need to execute the following command in a termina
 $ npm run dev
 ```
 
-![](C:\Users\Mr Mejia\Pictures\Documentacion\run.png)
+ <img src="https://pbs.twimg.com/media/D1e6fVPX0AAJaNj.png" width="600" large="400">
 
 
 
