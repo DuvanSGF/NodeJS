@@ -80,6 +80,123 @@ unzip master.zip
 
 #### 1.1NoSQL database
 
-Run the MongoDB server
+##### Run the MongoDB server
 
 To  create a database in MongoDB, use the mongod.exe  command in a terminal to start (run) the server
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\mongod.png)
+
+This  terminal windows must be kept open. if you close this console, you kill the MongoDB server process (stops the server).
+
+##### Run the MongoDB client
+
+To run the MongoDB client, open a new terminal windows and execute the mongo.exe command.
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\mongoexe.png)
+
+NodeJS web application will create the database and the collection. 
+
+
+
+
+
+
+
+## 2. Express Test Project
+
+#### 2.1 Required Software - Libraries
+
+Inside crud-nodejs-mongo-db folder you must open the terminal.
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\Folder.png)
+
+
+
+##### 2.1.2 Express 
+
+**Express.js**, or simply **Express**, is a [web application framework](https://en.wikipedia.org/wiki/Web_application_framework) for [Node.js](https://en.wikipedia.org/wiki/Node.js), released as [free and open-source software](https://en.wikipedia.org/wiki/Free_and_open-source_software) under the [MIT License](https://en.wikipedia.org/wiki/MIT_License). It is designed for building [web applications](https://en.wikipedia.org/wiki/Web_application) and [APIs](https://en.wikipedia.org/wiki/API).[[3\]](https://en.wikipedia.org/wiki/Express.js#cite_note-ExpressJS-3) It has been called the de facto standard server framework for Node.js.[[4\]](https://en.wikipedia.org/wiki/Express.js#cite_note-4)
+
+```
+$ npm install express
+```
+
+
+
+##### 2.1.3 Mongoose
+
+**Mongoose** is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
+
+```
+$ npm install mongoose
+```
+
+
+
+##### 2.1.4  Ejs
+
+**EJS** is a simple templating language that lets you generate HTML markup with plain JavaScript.
+
+```
+$ npm install ejs
+```
+
+
+
+##### 2.1.5 Morgan
+
+HTTP request logger middleware for node.js.
+
+```
+$ npm install morgan
+```
+
+
+
+
+
+##### 2.1.6 Nodemon 
+
+**Nodemon** is a utility that will monitor for any changes in your source and automatically restart your server. 
+Perfect for development. Install it using npm. Just use **nodemon** instead of node to run your code, and now your process will automatically restart when your code changes.
+
+```
+$ npm i nodemon -D
+```
+
+
+
+##  3. Run the Express Server
+
+Before you need to do the step One .
+
+To run the Express server you need to execute the following command in a terminal.
+
+```
+$ npm run dev
+```
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\run.png)
+
+
+
+To test the Express server open the web service URL in a browser:
+
+http://127.0.0.1:3000/
+
+or 
+
+http://localhost:3000/
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\index.png)
+
+
+
+
+
+
+
+###### MongoDB database access test : See the terminal
+
+![](C:\Users\Mr Mejia\Pictures\Documentacion\accesdatabase.png)
+
+
