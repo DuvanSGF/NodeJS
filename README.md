@@ -186,18 +186,8 @@ http://127.0.0.1:3000/
 or 
 
 http://localhost:3000/
-
-![](C:\Users\Mr Mejia\Pictures\Documentacion\index.png)
-
-
-
-
-
-
+![Django Boards Screenshot](https://pbs.twimg.com/media/D1e6fTXXgAAa3FR.png:large)
 
 ###### MongoDB database access test : See the terminal
-
-https://pbs.twimg.com/media/D1e6fSoWkAAJZF0.png
-
- <img src="https://pbs.twimg.com/media/D1e6fSoWkAAJZF0.png" width="600">
+ <img src="https://pbs.twimg.com/media/D1e6fSoWkAAJZF0.png" width="600" large="400">
 
