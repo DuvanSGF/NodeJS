@@ -196,3 +196,10 @@ http://localhost:3000/
 ###### MongoDB database access test : See the terminal
  <img src="https://pbs.twimg.com/media/D1e6fSoWkAAJZF0.png" width="600" large="400">
 
+
+
+## license
+
+MIT, as the original project. See [MIT License](https://github.com/DuvanSGF/NodeJS/blob/master/LICENSE.TXT).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/)
