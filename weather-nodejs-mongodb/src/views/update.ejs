@@ -1,0 +1,32 @@
+<% include templates/header %>         
+
+<div class="container">
+    <div class="row">
+                    <!--FORM-->
+                    <div class="col-md-5 offset-md-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="/update/<%= sensor.id %>" method="POST">
+                                        <div class="form-group">
+                                                <input type="number" name="humedad" placeholder="Humedad" class="form-control"
+                                                value="<%= sensor.humedad %>">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" name="temperatura" placeholder="Temperatura" class="form-control"
+                                                value="<%= sensor.temperatura %>">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="clima" placeholder="Clima" class="form-control"
+                                                value="<%= sensor.clima %>">
+                                            </div>
+                                        <button type="submit" class="btn btn-primary btn-block">
+                                            Update
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+</div>
+
+<% include templates/footer %>

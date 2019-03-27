@@ -1,0 +1,63 @@
+<% include templates/header %>
+
+    <div class="container">
+        <div class="row">
+            <!--FORM-->
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/add" method="POST">
+                            <div class="form-group">
+                                <input type="number" name="humedad" placeholder="Humedad" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" name="temperatura" placeholder="Temperatura" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="clima" placeholder="Clima" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Add
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST -->
+            <div class="col-md-7">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Humedad</th>
+                            <th>Temperatura</th>
+                            <th>clima</th>
+                            <th>Operation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for(var i = 0; i < sensor.length; i++) { %>
+                            <tr>
+                                <td><%= i + 1 %></td>
+                                <td><%= sensor[i].humedad %></td>
+                                <td><%= sensor[i].temperatura %></td>
+                                <td><%= sensor[i].clima %></td>
+                                <td>
+                                    <a href="/status/<%= sensor[i]._id %>" class="btn <%= sensor[i].status ? 'btn-success': 'btn-dark' %>">
+                                        Done
+                                    </a>
+                                    <a href="/delete/<%= sensor[i]._id %>" class="btn btn-danger">Delete</a>
+                                    <a href="/update/<%= sensor[i]._id %>" class="btn btn-info">Edit</a>
+                                </td>
+                            </tr>
+
+                        <% }%>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+<% include templates/footer %>
