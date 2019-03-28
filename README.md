@@ -107,9 +107,14 @@ NodeJS web application will create the database and the collection.
 
 ## 2. Express Test Project
 
+Inside crud-nodejs-mongo-db folder you must open the terminal and run the following command into the terminal.
+```
+$ npm init --yes
+```
+
 #### 2.1 Required Software - Libraries
 
-Inside crud-nodejs-mongo-db folder you must open the terminal.
+Then:
 
  <img src="https://pbs.twimg.com/media/D1e6fTBWoAEc6xm.png" width="600" large="400">
 
