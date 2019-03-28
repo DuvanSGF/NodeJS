@@ -114,7 +114,6 @@ $ npm init --yes
 
 #### 2.1 Required Software - Libraries
 
-Then:
 
  <img src="https://pbs.twimg.com/media/D1e6fTBWoAEc6xm.png" width="600" large="400">
 
