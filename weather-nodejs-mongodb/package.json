@@ -11,10 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.20",
-    "morgan": "^1.9.1"
+    "mixin-deep": "^2.0.1",
+    "mocha": "^6.2.2",
+    "mockgoose": "^8.0.3",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "set-value": "^3.0.1",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
