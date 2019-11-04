@@ -13,7 +13,7 @@
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.4.16",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
