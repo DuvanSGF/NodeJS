@@ -19,7 +19,7 @@
     "mockgoose": "^8.0.3",
     "mongoose": "^5.7.7",
     "morgan": "^1.9.1",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "supertest": "^4.0.2"
   },
   "devDependencies": {
