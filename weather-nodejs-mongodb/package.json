@@ -13,7 +13,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "mixin-deep": "^2.0.1",
     "mocha": "^6.2.2",
     "mockgoose": "^8.0.3",
