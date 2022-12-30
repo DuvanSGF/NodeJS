@@ -15,7 +15,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mixin-deep": "^2.0.1",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "mockgoose": "^8.0.3",
     "mongoose": "^5.7.7",
     "morgan": "^1.9.1",
